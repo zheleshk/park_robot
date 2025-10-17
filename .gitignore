@@ -1,0 +1,12 @@
+# Папки, генерируемые colcon
+build/
+install/
+log/
+
+# Временные файлы Python
+__pycache__/
+*.pyc
+
+# Файлы IDE (если будете использовать)
+.vscode/
+.idea/
