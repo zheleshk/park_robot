@@ -1,53 +1,13 @@
 <?xml version="1.0"?>
-<robot name="park_robot">
-
-  <!-- БАЗОВОЕ ЗВЕНО (ЦЕНТР РОБОТА) -->
-  <!-- Это виртуальная точка в центре робота, на уровне земли. -->
-  <link name="base_footprint"/>
-
-  <!-- ЗВЕНО ШАССИ (КОРПУС РОБОТА) -->
-  <!-- Это основное звено, к которому крепятся все сенсоры. -->
+<robot name="minimal_robot">
   <link name="base_link">
     <visual>
       <geometry>
-        <box size="0.33 0.21 0.1"/> <!-- Размеры корпуса: Длина(Y) 0.27м, Ширина(X) 0.26м, Высота(Z) 0.1м -->
+        <box size="0.5 0.5 0.5"/>
       </geometry>
-      <origin xyz="0 0 0.05" rpy="0 0 0"/> <!-- Центр корпуса находится на 5см выше земли -->
-      <material name="grey">
-        <color rgba="0.5 0.5 0.5 1.0"/>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
       </material>
     </visual>
   </link>
-
-  <!-- СУСТАВ, СОЕДИНЯЮЩИЙ ЗЕМЛЮ И КОРПУС -->
-  <!-- Это фиксированный сустав, который просто "поднимает" корпус над землей. -->
-  <joint name="base_footprint_to_base_link" type="fixed">
-    <parent link="base_footprint"/>
-    <child link="base_link"/>
-    <origin xyz="0 0 0.04"/> <!-- Центр base_link находится на 8см выше base_footprint (на уровне осей колес) -->
-  </joint>
-
-  <!-- ЗВЕНО ЛИДАРА -->
-  <!-- Это точка, из которой исходят лучи лидара. -->
-  <link name="laser_frame">
-    <visual>
-      <geometry>
-        <cylinder radius="0.04" length="0.05"/> <!-- Рисуем небольшой цилиндр для лидара -->
-      </geometry>
-      <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0"/>
-      </material>
-    </visual>
-  </link>
-
-  <!-- СУСТАВ, КОТОРЫЙ "КРЕПИТ" ЛИДАР К КОРПУСУ -->
-  <!-- !!! ЭТО САМАЯ ВАЖНАЯ ЧАСТЬ !!! -->
-  <joint name="base_link_to_laser" type="fixed">
-    <parent link="base_link"/>
-    <child link="laser_frame"/>
-    <!-- Укажите точное положение центра вашего лидара относительно центра робота (base_link) -->
-    <!-- xyz="X Y Z" в метрах. X - вперед, Y - влево, Z - вверх -->
-    <origin xyz="0.1 0 0.1" rpy="0 0 0"/> 
-  </joint>
-
 </robot>

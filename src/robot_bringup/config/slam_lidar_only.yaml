@@ -1,0 +1,30 @@
+slam_toolbox:
+  ros__parameters:
+    # Общие параметры
+    solver_plugin: "solver_plugins::CeresSolver"
+    ceres_linear_solver: "SPARSE_NORMAL_CHOLESKY"
+    ceres_preconditioner: "SCHUR_JACOBI"
+    ceres_trust_strategy: "LEVENBERG_MARQUARDT"
+
+    # Параметры, специфичные для SLAM
+    odom_frame: "odom"
+    map_frame: "map"
+    base_frame: "base_link"
+    scan_topic: "/scan"
+    
+    # --- КЛЮЧЕВЫЕ ПАРАМЕТРЫ ДЛЯ РАБОТЫ БЕЗ ОДОМЕТРИИ ---
+    use_scan_matching: true       # Использовать сопоставление сканов для оценки движения
+    use_scan_barycenter: true
+    minimum_travel_distance: 0.1  # Минимальное расстояние для создания новой ноды в графе
+    minimum_travel_heading: 0.1   # Минимальный угол поворота
+    
+    # --- ОТКЛЮЧАЕМ ВСЕ, ЧТО СВЯЗАНО С ОДОМЕТРИЕЙ ---
+    use_odom_tf: false
+    transform_timeout: 0.5
+    tf_buffer_duration: 30.0
+    
+    # Другие важные параметры
+    mode: "mapping" # Режим: "mapping" (построение карты) или "localization" (локализация)
+    map_update_interval: 2.0
+    resolution: 0.05
+    max_laser_range: 12.0 # Установите чуть меньше максимальной дальности вашего лидара
