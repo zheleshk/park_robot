@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/plant_analyzer/plant_analyzer.egg-info
+writing ../../build/plant_analyzer/plant_analyzer.egg-info/PKG-INFO
+writing dependency_links to ../../build/plant_analyzer/plant_analyzer.egg-info/dependency_links.txt
+writing requirements to ../../build/plant_analyzer/plant_analyzer.egg-info/requires.txt
+writing top-level names to ../../build/plant_analyzer/plant_analyzer.egg-info/top_level.txt
+writing manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'
+reading manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'
+writing manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kirill/folders/park_robot/build/plant_analyzer/build
+creating /home/kirill/folders/park_robot/build/plant_analyzer/build/lib
+creating /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer
+copying plant_analyzer/__init__.py -> /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer
+running install
+running install_lib
+creating /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer
+copying /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer/__init__.py -> /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer
+byte-compiling /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index
+creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index
+creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages
+copying resource/plant_analyzer -> /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages
+copying package.xml -> /home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer
+running install_egg_info
+Copying ../../build/plant_analyzer/plant_analyzer.egg-info to /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/kirill/folders/park_robot/build/plant_analyzer/install.log'

@@ -1,0 +1,35 @@
+[2.053s] Invoking command in '/home/kirill/folders/park_robot/src/robot_bringup': AMENT_PREFIX_PATH=/home/kirill/folders/park_robot/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kirill/folders/park_robot/install/robot_description:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/kirill/folders/park_robot/build/robot_bringup/build install --record /home/kirill/folders/park_robot/build/robot_bringup/install.log --single-version-externally-managed install_data
+[2.718s] running egg_info
+[2.719s] creating ../../build/robot_bringup/robot_bringup.egg-info
+[2.746s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[2.746s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[2.746s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[2.747s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[2.747s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.809s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.810s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.810s] running build
+[2.810s] running build_py
+[2.810s] creating /home/kirill/folders/park_robot/build/robot_bringup/build
+[2.811s] creating /home/kirill/folders/park_robot/build/robot_bringup/build/lib
+[2.811s] creating /home/kirill/folders/park_robot/build/robot_bringup/build/lib/robot_bringup
+[2.811s] copying robot_bringup/__init__.py -> /home/kirill/folders/park_robot/build/robot_bringup/build/lib/robot_bringup
+[2.811s] running install
+[2.821s] running install_lib
+[2.850s] creating /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup
+[2.850s] copying /home/kirill/folders/park_robot/build/robot_bringup/build/lib/robot_bringup/__init__.py -> /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup
+[2.851s] byte-compiling /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup/__init__.py to __init__.cpython-312.pyc
+[2.852s] running install_data
+[2.852s] creating /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index
+[2.852s] creating /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index/resource_index
+[2.852s] creating /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index/resource_index/packages
+[2.852s] copying resource/robot_bringup -> /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index/resource_index/packages
+[2.852s] copying package.xml -> /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup
+[2.853s] creating /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch
+[2.853s] copying launch/headless.launch.py -> /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch
+[2.853s] copying launch/display.launch.py -> /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch
+[2.853s] running install_egg_info
+[2.884s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info
+[2.885s] running install_scripts
+[3.099s] writing list of installed files to '/home/kirill/folders/park_robot/build/robot_bringup/install.log'
+[3.256s] Invoked command in '/home/kirill/folders/park_robot/src/robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/kirill/folders/park_robot/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kirill/folders/park_robot/install/robot_description:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/kirill/folders/park_robot/build/robot_bringup/build install --record /home/kirill/folders/park_robot/build/robot_bringup/install.log --single-version-externally-managed install_data

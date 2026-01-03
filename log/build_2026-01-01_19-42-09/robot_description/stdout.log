@@ -1,0 +1,26 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kirill/folders/park_robot/build/robot_description
+-- Install configuration: ""
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/path.sh
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/path.dsv
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.bash
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.sh
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.zsh
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.dsv
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.dsv
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/packages/robot_description
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.xml
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description//urdf
+-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description//urdf/park_robot.urdf

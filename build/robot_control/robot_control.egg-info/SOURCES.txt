@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/robot_control/robot_control.egg-info/PKG-INFO
+../../build/robot_control/robot_control.egg-info/SOURCES.txt
+../../build/robot_control/robot_control.egg-info/dependency_links.txt
+../../build/robot_control/robot_control.egg-info/entry_points.txt
+../../build/robot_control/robot_control.egg-info/requires.txt
+../../build/robot_control/robot_control.egg-info/top_level.txt
+../../build/robot_control/robot_control.egg-info/zip-safe
+resource/robot_control
+robot_control/__init__.py
+robot_control/arduino_bridge.py
+robot_control/arduino_bridge_node.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

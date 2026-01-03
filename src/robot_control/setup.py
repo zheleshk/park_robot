@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'arduino_bridge = robot_control.arduino_bridge_node:main',
+            'arduino_bridge = robot_control.arduino_bridge:main',
         ],
     },
 )

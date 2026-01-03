@@ -1,0 +1,31 @@
+[0.720s] Invoking command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/ydlidar_ros2_driver
+[0.875s] -- The C compiler identification is GNU 13.3.0
+[1.012s] -- The CXX compiler identification is GNU 13.3.0
+[1.039s] -- Detecting C compiler ABI info
+[1.229s] -- Detecting C compiler ABI info - done
+[1.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.245s] -- Detecting C compile features
+[1.246s] -- Detecting C compile features - done
+[1.264s] -- Detecting CXX compiler ABI info
+[1.477s] -- Detecting CXX compiler ABI info - done
+[1.491s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.491s] -- Detecting CXX compile features
+[1.492s] -- Detecting CXX compile features - done
+[1.503s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.504s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.504s]   has asked CMake to find a package configuration file provided by
+[1.504s]   "ament_cmake", but CMake did not find one.
+[1.505s] 
+[1.505s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.505s]   any of the following names:
+[1.506s] 
+[1.506s]     ament_cmakeConfig.cmake
+[1.506s]     ament_cmake-config.cmake
+[1.506s] 
+[1.506s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.507s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.507s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.508s]   has been installed.
+[1.508s] 
+[1.509s] -- Configuring incomplete, errors occurred!
+[1.509s] [0m

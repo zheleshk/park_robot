@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/plant_analyzer/plant_analyzer.egg-info/PKG-INFO
+../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt
+../../build/plant_analyzer/plant_analyzer.egg-info/dependency_links.txt
+../../build/plant_analyzer/plant_analyzer.egg-info/requires.txt
+../../build/plant_analyzer/plant_analyzer.egg-info/top_level.txt
+../../build/plant_analyzer/plant_analyzer.egg-info/zip-safe
+plant_analyzer/__init__.py
+resource/plant_analyzer
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

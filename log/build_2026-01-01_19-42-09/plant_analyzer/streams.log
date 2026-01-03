@@ -1,0 +1,32 @@
+[2.267s] Invoking command in '/home/kirill/folders/park_robot/src/plant_analyzer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plant_analyzer build --build-base /home/kirill/folders/park_robot/build/plant_analyzer/build install --record /home/kirill/folders/park_robot/build/plant_analyzer/install.log --single-version-externally-managed install_data
+[2.817s] running egg_info
+[2.819s] creating ../../build/plant_analyzer/plant_analyzer.egg-info
+[2.852s] writing ../../build/plant_analyzer/plant_analyzer.egg-info/PKG-INFO
+[2.854s] writing dependency_links to ../../build/plant_analyzer/plant_analyzer.egg-info/dependency_links.txt
+[2.855s] writing requirements to ../../build/plant_analyzer/plant_analyzer.egg-info/requires.txt
+[2.856s] writing top-level names to ../../build/plant_analyzer/plant_analyzer.egg-info/top_level.txt
+[2.856s] writing manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'
+[2.952s] reading manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'
+[2.954s] writing manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'
+[2.954s] running build
+[2.954s] running build_py
+[2.956s] creating /home/kirill/folders/park_robot/build/plant_analyzer/build
+[2.956s] creating /home/kirill/folders/park_robot/build/plant_analyzer/build/lib
+[2.957s] creating /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer
+[2.957s] copying plant_analyzer/__init__.py -> /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer
+[2.957s] running install
+[2.975s] running install_lib
+[3.032s] creating /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer
+[3.035s] copying /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer/__init__.py -> /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer
+[3.036s] byte-compiling /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer/__init__.py to __init__.cpython-312.pyc
+[3.036s] running install_data
+[3.037s] creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index
+[3.037s] creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index
+[3.038s] creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages
+[3.038s] copying resource/plant_analyzer -> /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages
+[3.039s] copying package.xml -> /home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer
+[3.039s] running install_egg_info
+[3.095s] Copying ../../build/plant_analyzer/plant_analyzer.egg-info to /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer-0.0.0-py3.12.egg-info
+[3.095s] running install_scripts
+[3.383s] writing list of installed files to '/home/kirill/folders/park_robot/build/plant_analyzer/install.log'
+[3.607s] Invoked command in '/home/kirill/folders/park_robot/src/plant_analyzer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plant_analyzer build --build-base /home/kirill/folders/park_robot/build/plant_analyzer/build install --record /home/kirill/folders/park_robot/build/plant_analyzer/install.log --single-version-externally-managed install_data

@@ -1,0 +1,436 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (plant_analyzer) JobQueued: {'identifier': 'plant_analyzer', 'dependencies': OrderedDict()}
+[0.000488] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.000514] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000533] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000550] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict({'robot_description': '/home/kirill/folders/park_robot/install/robot_description'})}
+[0.000878] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.007391] (plant_analyzer) JobStarted: {'identifier': 'plant_analyzer'}
+[0.014058] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.020677] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.026972] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.027746] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/kirill/folders/park_robot/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/robot_description'], 'cwd': '/home/kirill/folders/park_robot/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099707] (-) TimerEvent: {}
+[0.200304] (-) TimerEvent: {}
+[0.300828] (-) TimerEvent: {}
+[0.401244] (-) TimerEvent: {}
+[0.501838] (-) TimerEvent: {}
+[0.602196] (-) TimerEvent: {}
+[0.702574] (-) TimerEvent: {}
+[0.792364] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.792870] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.793102] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.793195] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.793280] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.793363] (robot_description) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.793443] (robot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.793523] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/kirill/folders/park_robot/build/robot_description\n'}
+[0.794209] (robot_description) CommandEnded: {'returncode': 0}
+[0.794732] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.796416] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kirill/folders/park_robot/build/robot_description', '--', '-j4', '-l4'], 'cwd': '/home/kirill/folders/park_robot/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.797667] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.799567] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/kirill/folders/park_robot/src/ydlidar_ros2_driver', '-DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/ydlidar_ros2_driver'], 'cwd': '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.802775] (-) TimerEvent: {}
+[0.838949] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.903962] (-) TimerEvent: {}
+[0.912826] (robot_description) CommandEnded: {'returncode': 0}
+[0.914854] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[0.950532] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kirill/folders/park_robot/build/robot_description'], 'cwd': '/home/kirill/folders/park_robot/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.980930] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.981491] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[0.981681] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[0.981901] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[0.982104] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[0.983269] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/path.sh\n'}
+[0.985840] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[0.986356] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.bash\n'}
+[0.986514] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.sh\n'}
+[0.989894] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[0.990679] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[0.990979] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.dsv\n'}
+[0.991203] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[0.991380] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[0.991547] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[0.991679] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.xml\n'}
+[0.993144] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description//urdf\n'}
+[0.998044] (robot_description) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/robot_description/share/robot_description//urdf/park_robot.urdf\n'}
+[1.001912] (robot_description) CommandEnded: {'returncode': 0}
+[1.004201] (-) TimerEvent: {}
+[1.044745] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[1.049067] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[1.104391] (-) TimerEvent: {}
+[1.206845] (-) TimerEvent: {}
+[1.247134] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.306994] (-) TimerEvent: {}
+[1.409192] (-) TimerEvent: {}
+[1.512449] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.512789] (-) TimerEvent: {}
+[1.613338] (-) TimerEvent: {}
+[1.637418] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.677912] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.713431] (-) TimerEvent: {}
+[1.717935] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.760673] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.813596] (-) TimerEvent: {}
+[1.914173] (-) TimerEvent: {}
+[1.936547] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.956507] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.014954] (-) TimerEvent: {}
+[2.118017] (-) TimerEvent: {}
+[2.218894] (-) TimerEvent: {}
+[2.243580] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.274472] (plant_analyzer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/plant_analyzer', 'build', '--build-base', '/home/kirill/folders/park_robot/build/plant_analyzer/build', 'install', '--record', '/home/kirill/folders/park_robot/build/plant_analyzer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kirill/folders/park_robot/src/plant_analyzer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/plant_analyzer', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.284106] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_control', 'build', '--build-base', '/home/kirill/folders/park_robot/build/robot_control/build', 'install', '--record', '/home/kirill/folders/park_robot/build/robot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kirill/folders/park_robot/src/robot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/robot_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kirill/folders/park_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.296993] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.321879] (-) TimerEvent: {}
+[2.356541] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.422019] (-) TimerEvent: {}
+[2.522931] (-) TimerEvent: {}
+[2.557159] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.623268] (-) TimerEvent: {}
+[2.673405] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[2.723401] (-) TimerEvent: {}
+[2.729604] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[2.775873] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.811766] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.813388] (robot_control) StdoutLine: {'line': b'creating ../../build/robot_control/robot_control.egg-info\n'}
+[2.823560] (-) TimerEvent: {}
+[2.824657] (plant_analyzer) StdoutLine: {'line': b'running egg_info\n'}
+[2.826889] (plant_analyzer) StdoutLine: {'line': b'creating ../../build/plant_analyzer/plant_analyzer.egg-info\n'}
+[2.850157] (robot_control) StdoutLine: {'line': b'writing ../../build/robot_control/robot_control.egg-info/PKG-INFO\n'}
+[2.850472] (robot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt\n'}
+[2.851168] (robot_control) StdoutLine: {'line': b'writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt\n'}
+[2.851777] (robot_control) StdoutLine: {'line': b'writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt\n'}
+[2.852220] (robot_control) StdoutLine: {'line': b'writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt\n'}
+[2.852712] (robot_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[2.859490] (plant_analyzer) StdoutLine: {'line': b'writing ../../build/plant_analyzer/plant_analyzer.egg-info/PKG-INFO\n'}
+[2.861239] (plant_analyzer) StdoutLine: {'line': b'writing dependency_links to ../../build/plant_analyzer/plant_analyzer.egg-info/dependency_links.txt\n'}
+[2.862855] (plant_analyzer) StdoutLine: {'line': b'writing requirements to ../../build/plant_analyzer/plant_analyzer.egg-info/requires.txt\n'}
+[2.863395] (plant_analyzer) StdoutLine: {'line': b'writing top-level names to ../../build/plant_analyzer/plant_analyzer.egg-info/top_level.txt\n'}
+[2.863585] (plant_analyzer) StdoutLine: {'line': b"writing manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'\n"}
+[2.926956] (-) TimerEvent: {}
+[2.951423] (robot_control) StdoutLine: {'line': b"reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[2.953573] (robot_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[2.955167] (robot_control) StdoutLine: {'line': b'running build\n'}
+[2.959145] (plant_analyzer) StdoutLine: {'line': b"reading manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'\n"}
+[2.959826] (robot_control) StdoutLine: {'line': b'running build_py\n'}
+[2.960327] (robot_control) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/robot_control/build\n'}
+[2.960609] (robot_control) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/robot_control/build/lib\n'}
+[2.960917] (robot_control) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control\n'}
+[2.961246] (robot_control) StdoutLine: {'line': b'copying robot_control/arduino_bridge_node.py -> /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control\n'}
+[2.961480] (robot_control) StdoutLine: {'line': b'copying robot_control/__init__.py -> /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control\n'}
+[2.961656] (plant_analyzer) StdoutLine: {'line': b"writing manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'\n"}
+[2.961880] (plant_analyzer) StdoutLine: {'line': b'running build\n'}
+[2.962187] (plant_analyzer) StdoutLine: {'line': b'running build_py\n'}
+[2.963575] (plant_analyzer) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/plant_analyzer/build\n'}
+[2.964178] (plant_analyzer) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/plant_analyzer/build/lib\n'}
+[2.964427] (plant_analyzer) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer\n'}
+[2.964591] (plant_analyzer) StdoutLine: {'line': b'copying plant_analyzer/__init__.py -> /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer\n'}
+[2.964786] (plant_analyzer) StdoutLine: {'line': b'running install\n'}
+[2.966883] (robot_control) StdoutLine: {'line': b'running install\n'}
+[2.982203] (plant_analyzer) StdoutLine: {'line': b'running install_lib\n'}
+[2.989949] (robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[3.027160] (-) TimerEvent: {}
+[3.039551] (plant_analyzer) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer\n'}
+[3.042847] (plant_analyzer) StdoutLine: {'line': b'copying /home/kirill/folders/park_robot/build/plant_analyzer/build/lib/plant_analyzer/__init__.py -> /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer\n'}
+[3.043346] (plant_analyzer) StdoutLine: {'line': b'byte-compiling /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer/__init__.py to __init__.cpython-312.pyc\n'}
+[3.043908] (plant_analyzer) StdoutLine: {'line': b'running install_data\n'}
+[3.044365] (plant_analyzer) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index\n'}
+[3.044759] (plant_analyzer) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index\n'}
+[3.045346] (plant_analyzer) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages\n'}
+[3.045553] (plant_analyzer) StdoutLine: {'line': b'copying resource/plant_analyzer -> /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages\n'}
+[3.046847] (plant_analyzer) StdoutLine: {'line': b'copying package.xml -> /home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer\n'}
+[3.047203] (plant_analyzer) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.048111] (robot_control) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control\n'}
+[3.048867] (robot_control) StdoutLine: {'line': b'copying /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control/arduino_bridge_node.py -> /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control\n'}
+[3.049780] (robot_control) StdoutLine: {'line': b'copying /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control/__init__.py -> /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control\n'}
+[3.052238] (robot_control) StdoutLine: {'line': b'byte-compiling /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control/arduino_bridge_node.py to arduino_bridge_node.cpython-312.pyc\n'}
+[3.060113] (robot_control) StdoutLine: {'line': b'byte-compiling /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control/__init__.py to __init__.cpython-312.pyc\n'}
+[3.063822] (robot_control) StdoutLine: {'line': b'running install_data\n'}
+[3.064314] (robot_control) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_control/share/ament_index\n'}
+[3.064456] (robot_control) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_control/share/ament_index/resource_index\n'}
+[3.065848] (robot_control) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_control/share/ament_index/resource_index/packages\n'}
+[3.066295] (robot_control) StdoutLine: {'line': b'copying resource/robot_control -> /home/kirill/folders/park_robot/install/robot_control/share/ament_index/resource_index/packages\n'}
+[3.068806] (robot_control) StdoutLine: {'line': b'copying package.xml -> /home/kirill/folders/park_robot/install/robot_control/share/robot_control\n'}
+[3.069240] (robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.100998] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/kirill/folders/park_robot/build/robot_bringup/build', 'install', '--record', '/home/kirill/folders/park_robot/build/robot_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kirill/folders/park_robot/src/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/kirill/folders/park_robot/install/robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kirill/folders/park_robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kirill/folders/park_robot/install/robot_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.102291] (plant_analyzer) StdoutLine: {'line': b'Copying ../../build/plant_analyzer/plant_analyzer.egg-info to /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer-0.0.0-py3.12.egg-info\n'}
+[3.102479] (plant_analyzer) StdoutLine: {'line': b'running install_scripts\n'}
+[3.111642] (robot_control) StdoutLine: {'line': b'Copying ../../build/robot_control/robot_control.egg-info to /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.0-py3.12.egg-info\n'}
+[3.113283] (robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[3.127238] (-) TimerEvent: {}
+[3.135859] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.139811] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.140186] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src\n'}
+[3.140348] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.144868] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.145296] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.145767] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.145976] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.148883] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.149592] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.155138] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.155583] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.155866] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.158598] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[3.205879] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.218720] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/kirill/folders/park_robot/build/ydlidar_ros2_driver\n'}
+[3.227469] (-) TimerEvent: {}
+[3.253495] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[3.254535] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[3.255068] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.327661] (-) TimerEvent: {}
+[3.390906] (plant_analyzer) StdoutLine: {'line': b"writing list of installed files to '/home/kirill/folders/park_robot/build/plant_analyzer/install.log'\n"}
+[3.398411] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[3.427878] (-) TimerEvent: {}
+[3.436530] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[3.466496] (robot_control) StdoutLine: {'line': b'Installing arduino_bridge script to /home/kirill/folders/park_robot/install/robot_control/lib/robot_control\n'}
+[3.468803] (robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/kirill/folders/park_robot/build/robot_control/install.log'\n"}
+[3.529315] (-) TimerEvent: {}
+[3.614717] (plant_analyzer) CommandEnded: {'returncode': 0}
+[3.629686] (plant_analyzer) JobEnded: {'identifier': 'plant_analyzer', 'rc': 0}
+[3.631489] (-) TimerEvent: {}
+[3.663827] (robot_control) CommandEnded: {'returncode': 0}
+[3.672321] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[3.731696] (-) TimerEvent: {}
+[3.767108] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.767776] (robot_bringup) StdoutLine: {'line': b'creating ../../build/robot_bringup/robot_bringup.egg-info\n'}
+[3.794512] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[3.795069] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[3.795395] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[3.795566] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[3.795724] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.831971] (-) TimerEvent: {}
+[3.857838] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.858967] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.859185] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[3.859349] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[3.859523] (robot_bringup) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/robot_bringup/build\n'}
+[3.859635] (robot_bringup) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/robot_bringup/build/lib\n'}
+[3.859757] (robot_bringup) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/build/robot_bringup/build/lib/robot_bringup\n'}
+[3.859871] (robot_bringup) StdoutLine: {'line': b'copying robot_bringup/__init__.py -> /home/kirill/folders/park_robot/build/robot_bringup/build/lib/robot_bringup\n'}
+[3.860085] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[3.869948] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[3.898909] (robot_bringup) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup\n'}
+[3.899289] (robot_bringup) StdoutLine: {'line': b'copying /home/kirill/folders/park_robot/build/robot_bringup/build/lib/robot_bringup/__init__.py -> /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup\n'}
+[3.900131] (robot_bringup) StdoutLine: {'line': b'byte-compiling /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup/__init__.py to __init__.cpython-312.pyc\n'}
+[3.900626] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[3.900840] (robot_bringup) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index\n'}
+[3.901026] (robot_bringup) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index/resource_index\n'}
+[3.901170] (robot_bringup) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[3.901275] (robot_bringup) StdoutLine: {'line': b'copying resource/robot_bringup -> /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[3.901412] (robot_bringup) StdoutLine: {'line': b'copying package.xml -> /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup\n'}
+[3.901587] (robot_bringup) StdoutLine: {'line': b'creating /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch\n'}
+[3.901748] (robot_bringup) StdoutLine: {'line': b'copying launch/headless.launch.py -> /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch\n'}
+[3.901940] (robot_bringup) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch\n'}
+[3.902085] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.932012] (-) TimerEvent: {}
+[3.932859] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info\n'}
+[3.934303] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[4.032127] (-) TimerEvent: {}
+[4.132535] (-) TimerEvent: {}
+[4.148081] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/kirill/folders/park_robot/build/robot_bringup/install.log'\n"}
+[4.232816] (-) TimerEvent: {}
+[4.304357] (robot_bringup) CommandEnded: {'returncode': 0}
+[4.318078] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[4.332927] (-) TimerEvent: {}
+[4.433410] (-) TimerEvent: {}
+[4.533985] (-) TimerEvent: {}
+[4.634641] (-) TimerEvent: {}
+[4.735214] (-) TimerEvent: {}
+[4.835947] (-) TimerEvent: {}
+[4.936384] (-) TimerEvent: {}
+[5.036871] (-) TimerEvent: {}
+[5.137614] (-) TimerEvent: {}
+[5.238146] (-) TimerEvent: {}
+[5.338788] (-) TimerEvent: {}
+[5.439259] (-) TimerEvent: {}
+[5.539872] (-) TimerEvent: {}
+[5.640394] (-) TimerEvent: {}
+[5.740856] (-) TimerEvent: {}
+[5.841297] (-) TimerEvent: {}
+[5.941887] (-) TimerEvent: {}
+[6.042289] (-) TimerEvent: {}
+[6.142681] (-) TimerEvent: {}
+[6.243136] (-) TimerEvent: {}
+[6.343664] (-) TimerEvent: {}
+[6.444101] (-) TimerEvent: {}
+[6.544765] (-) TimerEvent: {}
+[6.645251] (-) TimerEvent: {}
+[6.745663] (-) TimerEvent: {}
+[6.846235] (-) TimerEvent: {}
+[6.946657] (-) TimerEvent: {}
+[7.047240] (-) TimerEvent: {}
+[7.147716] (-) TimerEvent: {}
+[7.248131] (-) TimerEvent: {}
+[7.348536] (-) TimerEvent: {}
+[7.448979] (-) TimerEvent: {}
+[7.549373] (-) TimerEvent: {}
+[7.649784] (-) TimerEvent: {}
+[7.728837] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[7.729201] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:191:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.729321] (ydlidar_ros2_driver) StderrLine: {'line': b'  191 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[7.729413] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.729495] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:192:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.729575] (ydlidar_ros2_driver) StderrLine: {'line': b'  192 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[7.729656] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.729753] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:193:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.729858] (ydlidar_ros2_driver) StderrLine: {'line': b'  193 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[7.729936] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.744422] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[7.744685] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:201:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.744831] (ydlidar_ros2_driver) StderrLine: {'line': b'  201 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[7.744924] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.745002] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:202:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.745097] (ydlidar_ros2_driver) StderrLine: {'line': b'  202 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[7.745178] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.745258] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:203:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.745339] (ydlidar_ros2_driver) StderrLine: {'line': b'  203 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[7.745418] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.749876] (-) TimerEvent: {}
+[7.850210] (-) TimerEvent: {}
+[7.950589] (-) TimerEvent: {}
+[8.050947] (-) TimerEvent: {}
+[8.151313] (-) TimerEvent: {}
+[8.251697] (-) TimerEvent: {}
+[8.352072] (-) TimerEvent: {}
+[8.452481] (-) TimerEvent: {}
+[8.552912] (-) TimerEvent: {}
+[8.653458] (-) TimerEvent: {}
+[8.753882] (-) TimerEvent: {}
+[8.854319] (-) TimerEvent: {}
+[8.954819] (-) TimerEvent: {}
+[9.055210] (-) TimerEvent: {}
+[9.155770] (-) TimerEvent: {}
+[9.256191] (-) TimerEvent: {}
+[9.356711] (-) TimerEvent: {}
+[9.457108] (-) TimerEvent: {}
+[9.557481] (-) TimerEvent: {}
+[9.657865] (-) TimerEvent: {}
+[9.758308] (-) TimerEvent: {}
+[9.858838] (-) TimerEvent: {}
+[9.959303] (-) TimerEvent: {}
+[10.059735] (-) TimerEvent: {}
+[10.160158] (-) TimerEvent: {}
+[10.260560] (-) TimerEvent: {}
+[10.361025] (-) TimerEvent: {}
+[10.461512] (-) TimerEvent: {}
+[10.561989] (-) TimerEvent: {}
+[10.662572] (-) TimerEvent: {}
+[10.763169] (-) TimerEvent: {}
+[10.863652] (-) TimerEvent: {}
+[10.964283] (-) TimerEvent: {}
+[11.064667] (-) TimerEvent: {}
+[11.165096] (-) TimerEvent: {}
+[11.265506] (-) TimerEvent: {}
+[11.366023] (-) TimerEvent: {}
+[11.466424] (-) TimerEvent: {}
+[11.566838] (-) TimerEvent: {}
+[11.667292] (-) TimerEvent: {}
+[11.767833] (-) TimerEvent: {}
+[11.868226] (-) TimerEvent: {}
+[11.968782] (-) TimerEvent: {}
+[12.069153] (-) TimerEvent: {}
+[12.169550] (-) TimerEvent: {}
+[12.269970] (-) TimerEvent: {}
+[12.370351] (-) TimerEvent: {}
+[12.470745] (-) TimerEvent: {}
+[12.571127] (-) TimerEvent: {}
+[12.671533] (-) TimerEvent: {}
+[12.771989] (-) TimerEvent: {}
+[12.872378] (-) TimerEvent: {}
+[12.972757] (-) TimerEvent: {}
+[13.073147] (-) TimerEvent: {}
+[13.173509] (-) TimerEvent: {}
+[13.273880] (-) TimerEvent: {}
+[13.374259] (-) TimerEvent: {}
+[13.474602] (-) TimerEvent: {}
+[13.575007] (-) TimerEvent: {}
+[13.675499] (-) TimerEvent: {}
+[13.775912] (-) TimerEvent: {}
+[13.876644] (-) TimerEvent: {}
+[13.977396] (-) TimerEvent: {}
+[14.078257] (-) TimerEvent: {}
+[14.088535] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[14.178386] (-) TimerEvent: {}
+[14.278791] (-) TimerEvent: {}
+[14.379266] (-) TimerEvent: {}
+[14.479888] (-) TimerEvent: {}
+[14.580914] (-) TimerEvent: {}
+[14.681548] (-) TimerEvent: {}
+[14.782103] (-) TimerEvent: {}
+[14.882722] (-) TimerEvent: {}
+[14.983671] (-) TimerEvent: {}
+[15.084101] (-) TimerEvent: {}
+[15.184494] (-) TimerEvent: {}
+[15.231889] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_node\n'}
+[15.284674] (-) TimerEvent: {}
+[15.385094] (-) TimerEvent: {}
+[15.485504] (-) TimerEvent: {}
+[15.585927] (-) TimerEvent: {}
+[15.686300] (-) TimerEvent: {}
+[15.786704] (-) TimerEvent: {}
+[15.887183] (-) TimerEvent: {}
+[15.987608] (-) TimerEvent: {}
+[16.088090] (-) TimerEvent: {}
+[16.102743] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[16.188273] (-) TimerEvent: {}
+[16.288823] (-) TimerEvent: {}
+[16.389308] (-) TimerEvent: {}
+[16.490002] (-) TimerEvent: {}
+[16.590627] (-) TimerEvent: {}
+[16.691050] (-) TimerEvent: {}
+[16.791450] (-) TimerEvent: {}
+[16.871383] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[16.891598] (-) TimerEvent: {}
+[16.892774] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[16.893490] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[16.893843] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver'], 'cwd': '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill/folders/park_robot/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::3bcc:f60c:138e:d7c9%wlan0 62017 fe80::eb40:fd3a:eb9d:a66a%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.908612] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.909242] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[16.914772] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node" to ""\n'}
+[16.914951] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[16.922970] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client" to ""\n'}
+[16.923112] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[16.923277] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[16.923431] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[16.923564] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[16.923693] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[16.923814] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml\n'}
+[16.923937] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[16.924070] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[16.924192] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[16.924312] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[16.924429] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml\n'}
+[16.924547] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[16.924667] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[16.924792] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[16.924914] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml\n'}
+[16.925034] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml\n'}
+[16.925155] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[16.925280] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[16.925399] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml\n'}
+[16.925518] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[16.925646] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml\n'}
+[16.925785] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[16.925895] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[16.926020] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[16.926119] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[16.926413] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[16.926642] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[16.926881] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[16.927049] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[16.927210] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[16.927367] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[16.927526] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[16.927683] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[16.927876] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[16.928032] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[16.928185] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[16.928407] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[16.928607] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[16.928748] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[16.928910] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[16.931879] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[16.947110] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[16.948427] (-) EventReactorShutdown: {}
