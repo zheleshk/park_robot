@@ -1,0 +1,17 @@
+[2.746s] Invoking command in '/home/kirill/folders/park_robot/build/plant_analyzer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kirill/folders/park_robot/build/plant_analyzer/build --no-deps symlink_data --force
+[3.470s] running develop
+[4.504s] running egg_info
+[4.576s] writing plant_analyzer.egg-info/PKG-INFO
+[4.578s] writing dependency_links to plant_analyzer.egg-info/dependency_links.txt
+[4.584s] writing requirements to plant_analyzer.egg-info/requires.txt
+[4.588s] writing top-level names to plant_analyzer.egg-info/top_level.txt
+[4.720s] reading manifest file 'plant_analyzer.egg-info/SOURCES.txt'
+[4.723s] writing manifest file 'plant_analyzer.egg-info/SOURCES.txt'
+[4.851s] running build_ext
+[4.852s] Creating /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant-analyzer.egg-link (link to .)
+[4.858s] 
+[4.858s] Installed /home/kirill/folders/park_robot/build/plant_analyzer
+[4.859s] running symlink_data
+[4.863s] symbolically linking /home/kirill/folders/park_robot/build/plant_analyzer/resource/plant_analyzer -> /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages
+[4.864s] symbolically linking /home/kirill/folders/park_robot/build/plant_analyzer/package.xml -> /home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer
+[5.442s] Invoked command in '/home/kirill/folders/park_robot/build/plant_analyzer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kirill/folders/park_robot/build/plant_analyzer/build --no-deps symlink_data --force

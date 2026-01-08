@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_control/arduino_bridge.py -> /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control
+running install
+running install_lib
+copying /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control/arduino_bridge.py -> /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control
+byte-compiling /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control/arduino_bridge.py to arduino_bridge.cpython-312.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (arduino_bridge.py, line 146)
+running install_data
+running install_egg_info
+removing '/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/robot_control/robot_control.egg-info to /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing arduino_bridge script to /home/kirill/folders/park_robot/install/robot_control/lib/robot_control
+writing list of installed files to '/home/kirill/folders/park_robot/build/robot_control/install.log'

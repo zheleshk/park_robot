@@ -1,0 +1,32 @@
+[0.046s] Invoking command in '/home/kirill/folders/park_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/robot_description
+[0.853s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.854s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.854s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.898s] -- Added test 'lint_cmake' to check CMake code style
+[0.901s] -- Added test 'xmllint' to check XML markup files
+[0.907s] -- Configuring done (0.7s)
+[0.947s] -- Generating done (0.0s)
+[0.955s] -- Build files have been written to: /home/kirill/folders/park_robot/build/robot_description
+[0.976s] Invoked command in '/home/kirill/folders/park_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/robot_description
+[0.977s] Invoking command in '/home/kirill/folders/park_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kirill/folders/park_robot/build/robot_description -- -j4 -l4
+[1.113s] Invoked command in '/home/kirill/folders/park_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kirill/folders/park_robot/build/robot_description -- -j4 -l4
+[1.145s] Invoking command in '/home/kirill/folders/park_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kirill/folders/park_robot/build/robot_description
+[1.178s] -- Install configuration: ""
+[1.178s] -- Execute custom install script
+[1.178s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.204s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.231s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.259s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.279s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/path.sh
+[1.307s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/environment/path.dsv
+[1.329s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.bash
+[1.356s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.sh
+[1.379s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.zsh
+[1.402s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/local_setup.dsv
+[1.430s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.dsv
+[1.457s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.485s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.510s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.529s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.xml
+[1.548s] -- Symlinking: /home/kirill/folders/park_robot/install/robot_description/share/robot_description//urdf/park_robot.urdf
+[1.570s] Invoked command in '/home/kirill/folders/park_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kirill/folders/park_robot/build/robot_description

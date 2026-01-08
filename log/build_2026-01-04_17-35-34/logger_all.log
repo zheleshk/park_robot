@@ -1,0 +1,407 @@
+[0.239s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.240s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7f913d40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7faf8680>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7faf8680>>, mixin_verb=('build',))
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.347s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kirill/folders/park_robot'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extensions ['cmake', 'python']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extension 'cmake'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extension 'python'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extensions ['python_setup_py']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extension 'ros'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extensions ['cmake', 'python']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extension 'cmake'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extension 'python'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extensions ['python_setup_py']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/filters/CMakeFiles) by extension 'python_setup_py'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/plant_analyzer) by extension 'ros'
+[0.413s] DEBUG:colcon.colcon_core.package_identification:Package 'src/plant_analyzer' with type 'ros.ament_python' and name 'plant_analyzer'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[0.414s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_python' and name 'robot_bringup'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_python' and name 'robot_control'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.464s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/kirill/folders/park_robot/install
+[0.466s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/jazzy
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'plant_analyzer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'plant_analyzer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kirill/folders/park_robot/build/plant_analyzer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kirill/folders/park_robot/install/plant_analyzer', 'merge_install': False, 'path': '/home/kirill/folders/park_robot/src/plant_analyzer', 'symlink_install': True, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kirill/folders/park_robot/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kirill/folders/park_robot/install/robot_control', 'merge_install': False, 'path': '/home/kirill/folders/park_robot/src/robot_control', 'symlink_install': True, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kirill/folders/park_robot/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kirill/folders/park_robot/install/robot_description', 'merge_install': False, 'path': '/home/kirill/folders/park_robot/src/robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/kirill/folders/park_robot/src/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kirill/folders/park_robot/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kirill/folders/park_robot/install/robot_bringup', 'merge_install': False, 'path': '/home/kirill/folders/park_robot/src/robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.535s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kirill/folders/park_robot/src/robot_description' with build type 'ament_cmake'
+[0.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kirill/folders/park_robot/src/robot_description'
+[0.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kirill/folders/park_robot/src/plant_analyzer' with build type 'ament_python'
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('plant_analyzer', 'ament_prefix_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/hook/ament_prefix_path.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/hook/ament_prefix_path.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/hook/ament_prefix_path.sh'
+[0.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.562s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kirill/folders/park_robot/src/robot_control' with build type 'ament_python'
+[0.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'ament_prefix_path')
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/hook/ament_prefix_path.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/hook/ament_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/hook/ament_prefix_path.sh'
+[0.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kirill/folders/park_robot/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kirill/folders/park_robot/src/ydlidar_ros2_driver'
+[0.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/robot_description
+[0.966s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kirill/folders/park_robot/src/plant_analyzer'
+[0.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.383s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kirill/folders/park_robot/src/robot_control'
+[1.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/ydlidar_ros2_driver
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/robot_description
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kirill/folders/park_robot/build/robot_description -- -j4 -l4
+[1.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kirill/folders/park_robot/build/robot_description -- -j4 -l4
+[1.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kirill/folders/park_robot/build/robot_description
+[2.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kirill/folders/park_robot/build/robot_description
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description' for CMake module files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description' for CMake config files
+[2.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description/bin'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description/lib/python3.12/site-packages'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description/bin'
+[2.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.dsv'
+[2.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.sh'
+[2.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.bash'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.zsh'
+[2.135s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/folders/park_robot/install/robot_description/share/colcon-core/packages/robot_description)
+[2.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description' for CMake module files
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description' for CMake config files
+[2.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[2.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[2.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[2.139s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description/bin'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description/lib/python3.12/site-packages'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_description/bin'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.ps1'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.dsv'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.sh'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.bash'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_description/share/robot_description/package.zsh'
+[2.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/folders/park_robot/install/robot_description/share/colcon-core/packages/robot_description)
+[2.145s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kirill/folders/park_robot/src/robot_bringup' with build type 'ament_python'
+[2.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'ament_prefix_path')
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.ps1'
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.dsv'
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.sh'
+[2.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.648s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kirill/folders/park_robot/src/robot_bringup'
+[2.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.648s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.284s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[3.284s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/robot_control/share/robot_control/package.xml
+[3.285s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/robot_control/lib/robot_control/arduino_bridge
+[3.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kirill/folders/park_robot/build/robot_control/build --no-deps symlink_data --force
+[3.292s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages/plant_analyzer
+[3.292s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/package.xml
+[3.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/plant_analyzer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kirill/folders/park_robot/build/plant_analyzer/build --no-deps symlink_data --force
+[3.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/ydlidar_ros2_driver
+[3.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kirill/folders/park_robot/build/ydlidar_ros2_driver -- -j4 -l4
+[4.377s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+[4.377s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/package.xml
+[4.377s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch/headless.launch.py
+[4.377s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch/display.launch.py
+[4.377s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch/robot.launch.py
+[4.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/robot_bringup': CMAKE_PREFIX_PATH=/home/kirill/folders/park_robot/install/robot_description:/home/kirill/folders/park_robot/install/ydlidar_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kirill/folders/park_robot/build/robot_bringup/build --no-deps symlink_data --force
+[5.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('plant_analyzer', 'pythonpath_develop')
+[5.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/build/plant_analyzer/share/plant_analyzer/hook/pythonpath_develop.ps1'
+[5.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/plant_analyzer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kirill/folders/park_robot/build/plant_analyzer/build --no-deps symlink_data --force
+[6.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/build/plant_analyzer/share/plant_analyzer/hook/pythonpath_develop.dsv'
+[6.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/build/plant_analyzer/share/plant_analyzer/hook/pythonpath_develop.sh'
+[6.008s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/plant_analyzer' for CMake module files
+[6.009s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/plant_analyzer' for CMake config files
+[6.014s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/plant_analyzer/lib'
+[6.015s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/plant_analyzer/bin'
+[6.019s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/plant_analyzer/lib/pkgconfig/plant_analyzer.pc'
+[6.024s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages'
+[6.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('plant_analyzer', 'pythonpath')
+[6.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/hook/pythonpath.ps1'
+[6.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/hook/pythonpath.dsv'
+[6.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/hook/pythonpath.sh'
+[6.048s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/plant_analyzer/bin'
+[6.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(plant_analyzer)
+[6.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/package.ps1'
+[6.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/package.dsv'
+[6.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/package.sh'
+[6.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/package.bash'
+[6.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer/package.zsh'
+[6.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/folders/park_robot/install/plant_analyzer/share/colcon-core/packages/plant_analyzer)
+[6.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath_develop')
+[6.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kirill/folders/park_robot/build/robot_control/build --no-deps symlink_data --force
+[6.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/build/robot_control/share/robot_control/hook/pythonpath_develop.ps1'
+[6.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/build/robot_control/share/robot_control/hook/pythonpath_develop.dsv'
+[6.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/build/robot_control/share/robot_control/hook/pythonpath_develop.sh'
+[6.099s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_control' for CMake module files
+[6.100s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_control' for CMake config files
+[6.102s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_control/lib'
+[6.102s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_control/bin'
+[6.102s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_control/lib/pkgconfig/robot_control.pc'
+[6.103s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages'
+[6.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath')
+[6.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/hook/pythonpath.ps1'
+[6.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/hook/pythonpath.dsv'
+[6.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/hook/pythonpath.sh'
+[6.111s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_control/bin'
+[6.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/package.ps1'
+[6.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/package.dsv'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/package.sh'
+[6.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/package.bash'
+[6.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_control/share/robot_control/package.zsh'
+[6.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/folders/park_robot/install/robot_control/share/colcon-core/packages/robot_control)
+[6.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kirill/folders/park_robot/build/ydlidar_ros2_driver -- -j4 -l4
+[6.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kirill/folders/park_robot/build/ydlidar_ros2_driver
+[6.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath_develop')
+[6.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.ps1'
+[6.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/kirill/folders/park_robot/install/robot_description:/home/kirill/folders/park_robot/install/ydlidar_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kirill/folders/park_robot/build/robot_bringup/build --no-deps symlink_data --force
+[6.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.dsv'
+[7.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.sh'
+[7.001s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_bringup' for CMake module files
+[7.001s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_bringup' for CMake config files
+[7.002s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_bringup/lib'
+[7.002s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_bringup/bin'
+[7.002s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[7.003s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages'
+[7.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath')
+[7.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/hook/pythonpath.ps1'
+[7.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/hook/pythonpath.dsv'
+[7.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/hook/pythonpath.sh'
+[7.006s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/robot_bringup/bin'
+[7.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[7.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/package.ps1'
+[7.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/package.dsv'
+[7.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/package.sh'
+[7.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/package.bash'
+[7.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/package.zsh'
+[7.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/folders/park_robot/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[7.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[7.362s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver' for CMake module files
+[7.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kirill/folders/park_robot/build/ydlidar_ros2_driver
+[7.364s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver' for CMake config files
+[7.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[7.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[7.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[7.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[7.367s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib'
+[7.367s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/bin'
+[7.367s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[7.367s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/python3.12/site-packages'
+[7.368s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/bin'
+[7.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[7.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[7.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[7.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[7.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[7.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[7.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[7.372s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver' for CMake module files
+[7.372s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver' for CMake config files
+[7.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[7.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[7.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[7.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[7.375s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib'
+[7.375s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/bin'
+[7.375s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[7.375s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/python3.12/site-packages'
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/bin'
+[7.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[7.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[7.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[7.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[7.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[7.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[7.380s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.380s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.381s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.391s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.410s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/folders/park_robot/install/local_setup.ps1'
+[7.412s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kirill/folders/park_robot/install/_local_setup_util_ps1.py'
+[7.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/folders/park_robot/install/setup.ps1'
+[7.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/folders/park_robot/install/local_setup.sh'
+[7.419s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kirill/folders/park_robot/install/_local_setup_util_sh.py'
+[7.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/folders/park_robot/install/setup.sh'
+[7.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/folders/park_robot/install/local_setup.bash'
+[7.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/folders/park_robot/install/setup.bash'
+[7.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/folders/park_robot/install/local_setup.zsh'
+[7.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/folders/park_robot/install/setup.zsh'

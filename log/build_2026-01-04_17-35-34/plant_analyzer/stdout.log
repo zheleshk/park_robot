@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing plant_analyzer.egg-info/PKG-INFO
+writing dependency_links to plant_analyzer.egg-info/dependency_links.txt
+writing requirements to plant_analyzer.egg-info/requires.txt
+writing top-level names to plant_analyzer.egg-info/top_level.txt
+reading manifest file 'plant_analyzer.egg-info/SOURCES.txt'
+writing manifest file 'plant_analyzer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant-analyzer.egg-link (link to .)
+
+Installed /home/kirill/folders/park_robot/build/plant_analyzer
+running symlink_data
+symbolically linking /home/kirill/folders/park_robot/build/plant_analyzer/resource/plant_analyzer -> /home/kirill/folders/park_robot/install/plant_analyzer/share/ament_index/resource_index/packages
+symbolically linking /home/kirill/folders/park_robot/build/plant_analyzer/package.xml -> /home/kirill/folders/park_robot/install/plant_analyzer/share/plant_analyzer

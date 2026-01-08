@@ -16,7 +16,7 @@ class ArduinoBridge(Node):
         self.WHEEL_RADIUS = 0.08 / 2.0  # Радиус колеса в метрах (если диаметр 80мм, то радиус 0.04)
         self.WHEEL_SEP_WIDTH = 0.27     # Расстояние между левыми и правыми колесами (метры)
         self.WHEEL_SEP_LENGTH = 0.26    # Расстояние между передней и задней осью (метры)
-        self.TICKS_PER_REV = 1024       # Сколько тиков энкодера на 1 полный оборот колеса
+        self.TICKS_PER_REV = 512       # Сколько тиков энкодера на 1 полный оборот колеса
         
         # Настройки Serial
         self.port = '/dev/arduino'
@@ -115,6 +115,10 @@ class ArduinoBridge(Node):
 
                 # --- ИНТЕГРАЦИЯ ОДОМЕТРИИ ---
             current_time = self.get_clock().now()
+            
+            #now = self.get_clock().now()
+            #current_time = now + rclpy.duration.Duration(seconds=0.1)
+            
             dt = (current_time - self.last_time).nanoseconds / 1e9
             self.last_time = current_time
 
@@ -139,6 +143,10 @@ class ArduinoBridge(Node):
 
         # 1. Публикация TF (odom -> base_link)
         t = TransformStamped()
+        
+        #t.header.stamp.sec = 0
+        #t.header.stamp.nanosec = 0
+	
         t.header.stamp = current_time.to_msg()
         t.header.frame_id = 'odom'
         t.child_frame_id = 'base_link'

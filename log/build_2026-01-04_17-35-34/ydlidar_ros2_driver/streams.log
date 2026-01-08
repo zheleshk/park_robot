@@ -1,0 +1,81 @@
+[0.829s] Invoking command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/ydlidar_ros2_driver
+[0.866s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.473s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.489s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.584s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.616s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.727s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.882s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.886s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.078s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.240s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.380s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.457s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.532s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.945s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.949s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.951s] -- Configured cppcheck include dirs: /home/kirill/folders/park_robot/src/ydlidar_ros2_driver/src
+[2.954s] -- Configured cppcheck exclude dirs and/or files: 
+[2.955s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.955s] -- Configured cpplint exclude dirs and/or files: 
+[2.955s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.956s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.959s] -- Added test 'lint_cmake' to check CMake code style
+[2.959s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.962s] -- Added test 'uncrustify' to check C / C++ code style
+[2.963s] -- Configured uncrustify additional arguments: 
+[2.964s] -- Added test 'xmllint' to check XML markup files
+[2.969s] -- Configuring done (2.1s)
+[3.040s] -- Generating done (0.0s)
+[3.052s] -- Build files have been written to: /home/kirill/folders/park_robot/build/ydlidar_ros2_driver
+[3.083s] Invoked command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kirill/folders/park_robot/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kirill/folders/park_robot/install/ydlidar_ros2_driver
+[3.085s] Invoking command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kirill/folders/park_robot/build/ydlidar_ros2_driver -- -j4 -l4
+[3.282s] [ 25%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[3.299s] [ 50%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[6.047s] [ 75%] Built target ydlidar_ros2_driver_client
+[6.059s] [100%] Built target ydlidar_ros2_driver_node
+[6.080s] Invoked command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kirill/folders/park_robot/build/ydlidar_ros2_driver -- -j4 -l4
+[6.082s] Invoking command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kirill/folders/park_robot/build/ydlidar_ros2_driver
+[6.096s] -- Install configuration: ""
+[6.096s] -- Execute custom install script
+[6.097s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[6.114s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[6.132s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[6.149s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[6.166s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[6.183s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[6.200s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[6.217s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml
+[6.234s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[6.250s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[6.267s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml
+[6.284s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[6.306s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[6.328s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml
+[6.348s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml
+[6.370s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[6.392s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml
+[6.413s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[6.433s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[6.450s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml
+[6.466s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[6.483s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_main.yaml
+[6.500s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[6.517s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[6.534s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[6.551s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[6.568s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[6.584s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[6.602s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[6.618s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[6.635s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[6.653s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[6.669s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[6.686s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[6.702s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[6.720s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[6.737s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[6.754s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[6.771s] -- Symlinking: /home/kirill/folders/park_robot/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[6.791s] Invoked command in '/home/kirill/folders/park_robot/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kirill/folders/park_robot/build/ydlidar_ros2_driver

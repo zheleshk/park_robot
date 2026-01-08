@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000455] (-) JobUnselected: {'identifier': 'plant_analyzer'}
+[0.000779] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.000803] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000822] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000843] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.000867] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.099626] (-) TimerEvent: {}
+[0.199984] (-) TimerEvent: {}
+[0.300368] (-) TimerEvent: {}
+[0.400872] (-) TimerEvent: {}
+[0.501257] (-) TimerEvent: {}
+[0.601696] (-) TimerEvent: {}
+[0.702034] (-) TimerEvent: {}
+[0.802366] (-) TimerEvent: {}
+[0.902768] (-) TimerEvent: {}
+[1.003061] (-) TimerEvent: {}
+[1.103382] (-) TimerEvent: {}
+[1.203769] (-) TimerEvent: {}
+[1.208838] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_control', 'build', '--build-base', '/home/kirill/folders/park_robot/build/robot_control/build', 'install', '--record', '/home/kirill/folders/park_robot/build/robot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kirill/folders/park_robot/src/robot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kirill', 'SSH_CLIENT': '192.168.0.104 61137 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kirill', 'OLDPWD': '/home/kirill', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kirill/folders/park_robot/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kirill', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver:/home/kirill/folders/park_robot/install/robot_bringup:/home/kirill/folders/park_robot/install/robot_description:/home/kirill/folders/park_robot/install/robot_control:/home/kirill/folders/park_robot/install/plant_analyzer:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/kirill/folders/park_robot/build/robot_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.104 61137 192.168.0.112 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kirill/folders/park_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kirill/folders/park_robot/install/ydlidar_ros2_driver:/home/kirill/folders/park_robot/install/robot_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.303889] (-) TimerEvent: {}
+[1.404236] (-) TimerEvent: {}
+[1.504550] (-) TimerEvent: {}
+[1.576373] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.601804] (robot_control) StdoutLine: {'line': b'writing ../../build/robot_control/robot_control.egg-info/PKG-INFO\n'}
+[1.602228] (robot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt\n'}
+[1.604453] (robot_control) StdoutLine: {'line': b'writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt\n'}
+[1.604571] (-) TimerEvent: {}
+[1.604766] (robot_control) StdoutLine: {'line': b'writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt\n'}
+[1.605042] (robot_control) StdoutLine: {'line': b'writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt\n'}
+[1.658677] (robot_control) StdoutLine: {'line': b"reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[1.659741] (robot_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[1.659959] (robot_control) StdoutLine: {'line': b'running build\n'}
+[1.660073] (robot_control) StdoutLine: {'line': b'running build_py\n'}
+[1.660378] (robot_control) StdoutLine: {'line': b'copying robot_control/arduino_bridge.py -> /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control\n'}
+[1.660801] (robot_control) StdoutLine: {'line': b'running install\n'}
+[1.670149] (robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.695933] (robot_control) StdoutLine: {'line': b'copying /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control/arduino_bridge.py -> /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control\n'}
+[1.696979] (robot_control) StdoutLine: {'line': b'byte-compiling /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control/arduino_bridge.py to arduino_bridge.cpython-312.pyc\n'}
+[1.698297] (robot_control) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (arduino_bridge.py, line 146)\n'}
+[1.698510] (robot_control) StdoutLine: {'line': b'running install_data\n'}
+[1.698640] (robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.704654] (-) TimerEvent: {}
+[1.726443] (robot_control) StdoutLine: {'line': b"removing '/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.726891] (robot_control) StdoutLine: {'line': b'Copying ../../build/robot_control/robot_control.egg-info to /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.0-py3.12.egg-info\n'}
+[1.728077] (robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.804775] (-) TimerEvent: {}
+[1.905101] (-) TimerEvent: {}
+[1.906088] (robot_control) StdoutLine: {'line': b'Installing arduino_bridge script to /home/kirill/folders/park_robot/install/robot_control/lib/robot_control\n'}
+[1.906790] (robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/kirill/folders/park_robot/build/robot_control/install.log'\n"}
+[2.005253] (-) TimerEvent: {}
+[2.006069] (robot_control) CommandEnded: {'returncode': 0}
+[2.018274] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[2.019528] (-) EventReactorShutdown: {}

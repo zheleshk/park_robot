@@ -1,0 +1,34 @@
+[1.163s] Invoking command in '/home/kirill/folders/park_robot/build/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kirill/folders/park_robot/build/robot_control/build
+[1.567s] running develop
+[1.826s] Removing /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot-control.egg-link (link to .)
+[1.927s] Invoked command in '/home/kirill/folders/park_robot/build/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kirill/folders/park_robot/build/robot_control/build
+[1.929s] Invoking command in '/home/kirill/folders/park_robot/src/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/kirill/folders/park_robot/build/robot_control/build install --record /home/kirill/folders/park_robot/build/robot_control/install.log --single-version-externally-managed install_data --force
+[2.282s] running egg_info
+[2.306s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[2.306s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[2.309s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[2.309s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[2.310s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[2.361s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[2.362s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[2.362s] running build
+[2.362s] running build_py
+[2.363s] copying robot_control/arduino_bridge.py -> /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control
+[2.364s] running install
+[2.373s] running install_lib
+[2.399s] creating /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control
+[2.399s] copying /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control/arduino_bridge_node.py -> /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control
+[2.400s] copying /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control/__init__.py -> /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control
+[2.400s] copying /home/kirill/folders/park_robot/build/robot_control/build/lib/robot_control/arduino_bridge.py -> /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control
+[2.400s] byte-compiling /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control/arduino_bridge_node.py to arduino_bridge_node.cpython-312.pyc
+[2.404s] byte-compiling /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control/__init__.py to __init__.cpython-312.pyc
+[2.404s] byte-compiling /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control/arduino_bridge.py to arduino_bridge.cpython-312.pyc
+[2.406s] running install_data
+[2.406s] copying resource/robot_control -> /home/kirill/folders/park_robot/install/robot_control/share/ament_index/resource_index/packages
+[2.406s] copying package.xml -> /home/kirill/folders/park_robot/install/robot_control/share/robot_control
+[2.407s] running install_egg_info
+[2.434s] Copying ../../build/robot_control/robot_control.egg-info to /home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages/robot_control-0.0.0-py3.12.egg-info
+[2.435s] running install_scripts
+[2.611s] Installing arduino_bridge script to /home/kirill/folders/park_robot/install/robot_control/lib/robot_control
+[2.612s] writing list of installed files to '/home/kirill/folders/park_robot/build/robot_control/install.log'
+[2.704s] Invoked command in '/home/kirill/folders/park_robot/src/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/kirill/folders/park_robot/build/robot_control/build install --record /home/kirill/folders/park_robot/build/robot_control/install.log --single-version-externally-managed install_data --force

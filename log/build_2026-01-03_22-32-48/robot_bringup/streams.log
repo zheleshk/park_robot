@@ -1,0 +1,20 @@
+[1.618s] Invoking command in '/home/kirill/folders/park_robot/src/robot_bringup': CMAKE_PREFIX_PATH=/home/kirill/folders/park_robot/install/robot_description:/home/kirill/folders/park_robot/install/ydlidar_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/kirill/folders/park_robot/build/robot_bringup/build install --record /home/kirill/folders/park_robot/build/robot_bringup/install.log --single-version-externally-managed install_data
+[2.014s] running egg_info
+[2.041s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[2.041s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[2.042s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[2.043s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[2.099s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.100s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[2.100s] running build
+[2.101s] running build_py
+[2.106s] running install
+[2.113s] running install_lib
+[2.142s] running install_data
+[2.143s] copying launch/robot.launch.py -> /home/kirill/folders/park_robot/install/robot_bringup/share/robot_bringup/launch
+[2.143s] running install_egg_info
+[2.174s] removing '/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[2.174s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info
+[2.176s] running install_scripts
+[2.436s] writing list of installed files to '/home/kirill/folders/park_robot/build/robot_bringup/install.log'
+[2.558s] Invoked command in '/home/kirill/folders/park_robot/src/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/kirill/folders/park_robot/install/robot_description:/home/kirill/folders/park_robot/install/ydlidar_ros2_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/kirill/folders/park_robot/build/robot_bringup/build install --record /home/kirill/folders/park_robot/build/robot_bringup/install.log --single-version-externally-managed install_data

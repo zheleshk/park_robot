@@ -1,0 +1,19 @@
+[2.292s] Invoking command in '/home/kirill/folders/park_robot/src/plant_analyzer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plant_analyzer build --build-base /home/kirill/folders/park_robot/build/plant_analyzer/build install --record /home/kirill/folders/park_robot/build/plant_analyzer/install.log --single-version-externally-managed install_data
+[2.768s] running egg_info
+[2.794s] writing ../../build/plant_analyzer/plant_analyzer.egg-info/PKG-INFO
+[2.797s] writing dependency_links to ../../build/plant_analyzer/plant_analyzer.egg-info/dependency_links.txt
+[2.798s] writing requirements to ../../build/plant_analyzer/plant_analyzer.egg-info/requires.txt
+[2.798s] writing top-level names to ../../build/plant_analyzer/plant_analyzer.egg-info/top_level.txt
+[2.851s] reading manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'
+[2.853s] writing manifest file '../../build/plant_analyzer/plant_analyzer.egg-info/SOURCES.txt'
+[2.853s] running build
+[2.853s] running build_py
+[2.855s] running install
+[2.866s] running install_lib
+[2.893s] running install_data
+[2.893s] running install_egg_info
+[2.923s] removing '/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer-0.0.0-py3.12.egg-info' (and everything under it)
+[2.923s] Copying ../../build/plant_analyzer/plant_analyzer.egg-info to /home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages/plant_analyzer-0.0.0-py3.12.egg-info
+[2.925s] running install_scripts
+[3.122s] writing list of installed files to '/home/kirill/folders/park_robot/build/plant_analyzer/install.log'
+[3.320s] Invoked command in '/home/kirill/folders/park_robot/src/plant_analyzer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kirill/folders/park_robot/build/plant_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/folders/park_robot/install/plant_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plant_analyzer build --build-base /home/kirill/folders/park_robot/build/plant_analyzer/build install --record /home/kirill/folders/park_robot/build/plant_analyzer/install.log --single-version-externally-managed install_data
